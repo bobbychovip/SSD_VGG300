@@ -2,7 +2,7 @@
 A tensorflow implementation of Single Shot Multibox Detector.
 ## 使用
 ### VOC2012数据
-下载VOC2012数据，并解压到文件夹VOC2012，记录该文件夹的绝对地址。更改pascalvoc_to_tfrecords.py文件中VOC_DIRECTORY的值为刚刚解压后的文件夹的地址。
+下载KITTI数据集，将其转化为VOC2012格式，记录该文件夹的绝对地址。更改pascalvoc_to_tfrecords.py文件中VOC_DIRECTORY的值为刚刚解压后的文件夹的地址。
 ### 生成TFR压缩数据
 运行pascalvoc_to_tfrecords.py脚本，把图片转换成TFR格式，方便tensorflow读取。
 ### 下载checkpoint文件
